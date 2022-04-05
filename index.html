@@ -1,0 +1,40 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="division">
+<form name="form">
+    
+<input style="width: 340px;" type="text"    name="answer" id="answer_box">
+<br> <br>
+<input class="btn" type="button" value="  1  " onclick="form.answer.value +='1' ">
+<input class="btn" type="button" value="  2  " onclick="form.answer.value +='2' ">
+<input  class="btn" type="button" value="  3  " onclick="form.answer.value +='3' ">
+<br> <br>
+<input class="btn" type="button" value="  4  " onclick="form.answer.value +='4'">
+<input class="btn" type="button" value="  5  " onclick="form.answer.value +='5'">
+<input class="btn" type="button" value="  6  " onclick="form.answer.value +='6'">
+
+<br> <br>
+<input class="btn" type="button" value="  7  " onclick="form.answer.value +='7'">
+<input class="btn" type="button" value="  8  " onclick="form.answer.value +='8'">
+<input class="btn" type="button" value="  9  " onclick="form.answer.value +='9'">
+
+<br> <br>
+<input class="btn" type="button" value="  0  " onclick="form.answer.value +='0'">
+<input class="btn" type="button" value="  +  " onclick="form.answer.value +='+'">
+<input class="btn" type="button" value="  -  " onclick="form.answer.value +='-'">
+
+
+<br> <br>
+<input class="btn" type="button" value="  *  " onclick="form.answer.value +='*'">
+<input class="btn" type="button" value="  /  " onclick="form.answer.value +='/'">
+<input class="btn" type="button" value="  =  " onclick="form.answer.value =eval(form.answer.value)">
+<br> <br>
+<input  style="width: 340px;" class="btn" type="button" value="CLEAR ALL" onclick="form.answer.value =''" id="clear_all">
+</form>
+</div>
+</body>
+
+</html>
